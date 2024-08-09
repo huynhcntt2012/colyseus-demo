@@ -23,7 +23,7 @@ module.exports = {
     production : {
       "user" : "deploy",
       "host" : ["45.76.180.208"],
-      "ref"  : "origin/main",
+      "ref"  : "main",
       "repo" : "git@github.com:huynhcntt2012/colyseus-demo.git",
       "path" : "/home/deploy",
       "post-deploy" : "npm install && npm run build && npm exec colyseus-post-deploy"
